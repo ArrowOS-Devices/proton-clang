@@ -7,7 +7,7 @@ OUTPUT_FORMAT("elf64-littleaarch64", "elf64-bigaarch64",
 	      "elf64-littleaarch64")
 OUTPUT_ARCH(aarch64)
 ENTRY(_start)
-SEARCH_DIR("=/root/build/install/aarch64-linux-gnu/lib");
+SEARCH_DIR("=/home/atul/local/proton-clang-build/install/aarch64-linux-gnu/lib");
 SECTIONS
 {
   /* Read-only sections, merged into text segment: */
